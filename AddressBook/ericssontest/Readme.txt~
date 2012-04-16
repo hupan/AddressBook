@@ -1,0 +1,17 @@
+All functional requirements are satisfied.
+All non-functional requirements are satisfied except for the testing coverage. I encountered a problem when running JUnit test through maven. It cannot get my input from terminal...
+
+"Please input name to continue testing: "
+"name : "
+Then I enter a name and press "enter". The terminal blocks...
+
+However through Eclipse there is no problem. I spend a long time trying to solve it but the result is not positive...Besides there is no enough time. This is the first time that I use cobertura. I am sure I can fix it if given a little bit more time.
+
+I learned a lot of things through this little test. Thank you Ericsson!
+
+Use "mvn clean install" for building up.
+Use "mvn site" for generating javadoc and test reports.
+
+Again, thank you for your help!
+
+HUPan
